@@ -25,8 +25,8 @@ module.exports = {
 	 * @returns {string} 生成的昵称
 	 */
 	generate(nick, tail) {
-		if(!(nick || tail)) throw new Error('参数不能为空');
+		if(!nick || !tail) throw new Error('参数不能为空');
 		tail = retail(tail.trim());
-		return nick.trim() + '\u2067' + tail + '\u2066';
+		return nick + '\u2067' + tail + '\u2066';
 	}
 }
