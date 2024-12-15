@@ -1,6 +1,6 @@
 {
   "name": "qtail-js",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.1",
   "description": "一个轻量级的用于生成带小尾巴的 qq 昵称的 JavaScript 库",
   "main": "./index.cjs",
   "module": "./index.mjs",
@@ -12,18 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XiaozhiSans/qtail-js.git"
+    "url": "git+https://github.com/latedreamdev/qtail-js.git"
   },
   "keywords": [
     "qtail",
     "qq",
     "nickname"
   ],
-  "author": "XiaozhiSans",
+  "author": "latedream",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/XiaozhiSans/qtail-js/issues"
+    "url": "https://github.com/latedreamdev/qtail-js/issues"
   },
-  "homepage": "https://github.com/XiaozhiSans/qtail-js#readme",
-  "packageManager": "yarn@1.22.10"
+  "homepage": "https://github.com/latedreamdev/qtail-js#readme"
 }
