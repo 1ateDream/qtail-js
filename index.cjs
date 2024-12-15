@@ -12,7 +12,7 @@
 function retail(tail) {
 	let startSymbols = tail.match(/^[^\w\s\u4e00-\u9fa5]+/) || '';
 	let endSymbols = tail.match(/[^\w\s\u4e00-\u9fa5]+$/) || '';
-	if(startSymbols === endSymbols) return tail; // 如果一样, 则不整理
+	if(startSymbols[0] === endSymbols[0]) return tail; // 如果开头和结尾一样, 则不整理
 	tail = tail.replace(startSymbols, '').replace(endSymbols, '');
 	return endSymbols + tail + startSymbols;
 }
